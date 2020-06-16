@@ -18,7 +18,8 @@
                 color:white;
             }
         </style>
-
+        <script src="jquery-3.5.1.min.js"></script>
+        
         <script>
             var id1=-1, id2=-1;
 
@@ -31,7 +32,8 @@
                     id2=id;
                 }
                 if(id1!=-1 && id2!=-1){
-                    setTimeout(apaga(), 3000);
+                    apaga();
+                    
                 }
             }
 
